@@ -9,3 +9,6 @@ start:
 stop:
 	docker stop spark
 	docker rm spark
+
+logs:
+	docker logs -f spark
